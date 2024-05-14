@@ -1,0 +1,18 @@
+function calculate(): int {
+  int a = (12 + (5 / 15 + (1 * 2 / 1 + 2) % 2) - (-1)) + 50;
+  print(a);
+  int b = (a - (2 + a % 10) / 12 + (44 * 3 % a) / 2 + 10) + 65;
+  print(b);
+  int c = (a*b / ((a % 3 - b + (10 - (1 - 9 / 7 % 5 - 10 - 9) + 2) * 1) - 8)) + 100;
+  print(c);
+  int d = c - a/b % 31 * (1 - ((a) / (-2) - b * 2) / a + c) - 12 + 70;
+  d = (((((d % 10)) - (40 % 2)))) % 20 +25;
+  print(d);
+  int res = ((a + (c % 11 - 9 * b + (12) / c)) % 9 + a + (3 + (b % 2 * (d + 15) + 30 / 7) / c) + 4 % 2) ;
+  print(res);
+  return res;
+}
+
+main {
+  int x = calculate();
+}
